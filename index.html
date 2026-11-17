@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="牛皮拼图（Kraft Puzzles）把你珍贵的照片变成有真实厚度与光影的 3D 拼图。支持 9 至 100 片、进度保存、奖章和拼图回放。"
+    />
+    <meta name="theme-color" content="#21453b" />
+    <title>牛皮拼图 · Kraft Puzzles — 把照片拼成立体回忆</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容 / Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航 / Main navigation">
+        <a class="brand" href="index.html" aria-label="牛皮拼图首页">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span>kraft puzzles</span>
+        </a>
+        <div class="nav-links">
+          <a href="#features" data-language-panel="zh">特色</a>
+          <a href="#features" data-language-panel="en" hidden>Features</a>
+          <a class="always" href="privacy.html">
+            <span data-language-panel="zh">隐私政策</span>
+            <span data-language-panel="en" hidden>Privacy</span>
+          </a>
+          <div class="language-switcher" aria-label="选择语言 / Choose language">
+            <button type="button" data-language-button="zh" aria-pressed="true">中文</button>
+            <button type="button" data-language-button="en" aria-pressed="false">EN</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-inner">
+          <div data-language-panel="zh">
+            <p class="eyebrow">你的照片 · 你的拼图</p>
+            <h1>把珍贵照片，拼成立体回忆。</h1>
+            <p class="hero-copy">
+              从相册选择一张喜欢的照片，牛皮拼图会把它变成拥有真实厚度、光影和手感的
+              3D 拼图。慢慢拼，也可以认真挑战。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#features">探索玩法</a>
+              <a class="button button-secondary" href="privacy.html">阅读隐私政策</a>
+            </div>
+          </div>
+
+          <div data-language-panel="en" hidden>
+            <p class="eyebrow">Your photo · Your puzzle</p>
+            <h1>Turn favorite photos into tactile memories.</h1>
+            <p class="hero-copy">
+              Choose a photo you love and Kraft Puzzles turns it into a tactile 3D jigsaw
+              with real depth, lighting, and satisfying movement. Take it easy—or take on a
+              serious challenge.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#features">Explore the experience</a>
+              <a class="button button-secondary" href="privacy.html">Read our Privacy Policy</a>
+            </div>
+          </div>
+
+          <div class="puzzle-stage" aria-hidden="true">
+            <div class="puzzle-board">
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+              <span class="puzzle-piece"></span>
+            </div>
+            <span class="piece-out"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-header" data-language-panel="zh">
+          <p class="eyebrow">不只是一张平面图片</p>
+          <h2>一盒只属于你的数字拼图</h2>
+          <p>熟悉的照片、真实的碎片质感，以及恰到好处的辅助，让每次完成都值得纪念。</p>
+        </div>
+        <div class="section-header" data-language-panel="en" hidden>
+          <p class="eyebrow">More than a flat picture</p>
+          <h2>A personal puzzle box, made from your memories</h2>
+          <p>
+            Familiar photos, dimensional pieces, and thoughtful tools make every completed
+            puzzle worth remembering.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <div data-language-panel="zh">
+              <h3>照片即是拼图</h3>
+              <p>从系统照片选择图片，保留原始比例，或裁切成正方形、横向与纵向构图。</p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Your photo, your puzzle</h3>
+              <p>Choose with the system photo picker, keep the original framing, or crop it your way.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number">02</span>
+            <div data-language-panel="zh">
+              <h3>真正的立体手感</h3>
+              <p>每一块都有可见厚度、边缘、材质与光影，配合吸附动画和触觉反馈自然归位。</p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>A tactile 3D feel</h3>
+              <p>Visible depth, shaped edges, materials, lighting, snap motion, and haptic feedback.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number">03</span>
+            <div data-language-panel="zh">
+              <h3>进度随时继续</h3>
+              <p>未完成的拼图保存在本机。下次打开，从离开的那一块继续，不必重新开始。</p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Resume anytime</h3>
+              <p>Unfinished puzzles stay on your device, ready to continue exactly where you left off.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number">04</span>
+            <div data-language-panel="zh">
+              <h3>需要时再提示</h3>
+              <p>支持开局引导、完整参考图、画布缩放和可调碎片大小，帮助由你决定。</p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Help when you want it</h3>
+              <p>Opening guidance, a full reference, board zoom, adjustable pieces, and optional hints.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number">05</span>
+            <div data-language-panel="zh">
+              <h3>拾光奖章册</h3>
+              <p>记录用时、准确率、连续归位与不同难度表现，让每一种完成方式都有纪念。</p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Keepsake badges</h3>
+              <p>Remember your time, accuracy, streaks, and progress across every difficulty.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-number">06</span>
+            <div data-language-panel="zh">
+              <h3>把过程变成故事</h3>
+              <p>完成后重温碎片逐块归位的过程，并可将回放视频保存到系统相册。</p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Replay your solve</h3>
+              <p>Watch every piece return to its place, then save the replay video to Photos.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="dark-band">
+        <div class="section">
+          <div class="section-header" data-language-panel="zh">
+            <p class="eyebrow">从放松到大师挑战</p>
+            <h2>五档难度，一张照片反复探索</h2>
+            <p>先从九宫格熟悉手感，再把同一幅画面升级到百片挑战。</p>
+          </div>
+          <div class="section-header" data-language-panel="en" hidden>
+            <p class="eyebrow">From a quiet break to a master challenge</p>
+            <h2>Five difficulty levels, endless ways to revisit a photo</h2>
+            <p>Start with nine generous pieces, then work your way to a 100-piece challenge.</p>
+          </div>
+
+          <div class="difficulty-grid">
+            <div class="difficulty-card"><strong>9</strong><span data-language-panel="zh">轻松</span><span data-language-panel="en" hidden>Easy</span></div>
+            <div class="difficulty-card"><strong>25</strong><span data-language-panel="zh">挑战</span><span data-language-panel="en" hidden>Challenge</span></div>
+            <div class="difficulty-card"><strong>36</strong><span data-language-panel="zh">进阶</span><span data-language-panel="en" hidden>Advanced</span></div>
+            <div class="difficulty-card"><strong>64</strong><span data-language-panel="zh">专家</span><span data-language-panel="en" hidden>Expert</span></div>
+            <div class="difficulty-card"><strong>100</strong><span data-language-panel="zh">大师</span><span data-language-panel="en" hidden>Master</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="privacy">
+        <div class="section-header" data-language-panel="zh">
+          <p class="eyebrow">照片属于你</p>
+          <h2>清楚、克制的数据处理</h2>
+          <p>我们把照片拼图留在设备里，同时如实说明免费版广告服务所处理的数据。</p>
+        </div>
+        <div class="section-header" data-language-panel="en" hidden>
+          <p class="eyebrow">Your photos stay yours</p>
+          <h2>Clear, restrained data practices</h2>
+          <p>Your photo puzzles remain on device, while ad-related data practices are explained plainly.</p>
+        </div>
+
+        <div class="privacy-panel">
+          <article class="privacy-card emphasis">
+            <div data-language-panel="zh">
+              <h3>照片与存档保存在本机</h3>
+              <p>导入照片、拼图进度、奖章与统计不会上传到开发者服务器。</p>
+              <ul class="check-list">
+                <li>使用系统照片选择器</li>
+                <li>无需注册账号</li>
+                <li>可以随时删除拼图或 App</li>
+              </ul>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Photos and saves stay on device</h3>
+              <p>Imported photos, puzzle progress, badges, and stats are not uploaded to a developer server.</p>
+              <ul class="check-list">
+                <li>Uses the system photo picker</li>
+                <li>No account required</li>
+                <li>Delete a puzzle or the app anytime</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="privacy-card">
+            <div data-language-panel="zh">
+              <h3>广告与隐私选择</h3>
+              <p>
+                免费版使用 Google Mobile Ads 与 UMP 提供广告和适用地区的隐私选项。永久解锁后，App
+                不再请求或展示广告。详细数据类型、用途与选择方式请查看完整隐私政策。
+              </p>
+            </div>
+            <div data-language-panel="en" hidden>
+              <h3>Ads and privacy choices</h3>
+              <p>
+                The free version uses Google Mobile Ads and UMP for ads and region-appropriate privacy
+                choices. After Lifetime Unlock, the app no longer requests or displays ads. See the full
+                policy for data types, purposes, and controls.
+              </p>
+            </div>
+            <p style="margin-top: 24px">
+              <a class="button button-dark" href="privacy.html">
+                <span data-language-panel="zh">查看完整隐私政策</span>
+                <span data-language-panel="en" hidden>View the full Privacy Policy</span>
+              </a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta-heading">
+        <div data-language-panel="zh">
+          <h2 id="cta-heading">从一张喜欢的照片开始。</h2>
+          <p>前两个新照片拼图免费创建；也可一次购买，永久解锁无限拼图并移除广告。</p>
+        </div>
+        <div data-language-panel="en" hidden>
+          <h2 id="cta-heading-en">Start with a photo you love.</h2>
+          <p>Your first two new photo puzzles are free, with a one-time option to unlock unlimited puzzles and remove ads.</p>
+        </div>
+        <span class="button button-dark" aria-label="App Store 即将上线 / Coming soon on the App Store">
+          <span data-language-panel="zh">App Store · 即将上线</span>
+          <span data-language-panel="en" hidden>Coming soon on the App Store</span>
+        </span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© 2026 <span data-replace="legal-name">Kraft Puzzles</span></span>
+        <div class="footer-links">
+          <a href="privacy.html"><span data-language-panel="zh">隐私政策</span><span data-language-panel="en" hidden>Privacy Policy</span></a>
+          <a href="mailto:smallstr0ng@icloud.com"><span data-language-panel="zh">联系支持</span><span data-language-panel="en" hidden>Support</span></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
